@@ -105,8 +105,8 @@ public class Login extends JFrame {
                     JOptionPane.showMessageDialog(null, "Password is required");
                 } else {
                     try {
-                        Connection Connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentenrollment", "jomslr", "Oms_123");
-                        String SelectQ = "SELECT * FROM students WHERE email = '" + email + "' and password = '" + password + "'";
+                        Connection Connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentenrollment", "root", "PLMpurposes1234");
+                        String SelectQ = "select * from enrollee where email = '" + email + "' and password = '" + password + "'";
                         Statement statement = Connect.createStatement();
                         ResultSet resultSet = statement.executeQuery(SelectQ);
                         if (resultSet.next()) {
