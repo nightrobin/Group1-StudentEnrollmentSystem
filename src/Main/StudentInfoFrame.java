@@ -47,7 +47,7 @@ public class StudentInfoFrame extends JFrame implements ActionListener {
     }
 
     public void setLocationAndSize() {
-        studentInfo.setBounds(600,40, 200,30);
+        studentInfo.setBounds(145,40, 200,30);
         studentNum.setBounds(60,90, 100,30);
         studentNumTextField.setBounds(180,90, 200,30);
         studentFN.setBounds(60,130, 100,30);
@@ -70,8 +70,8 @@ public class StudentInfoFrame extends JFrame implements ActionListener {
         studentMoNTextField.setBounds(180,450, 200,30);
         studentGWA.setBounds(60,490, 100,30);
         studentGWATextField.setBounds(180,490, 200,30);
-        submitButton.setBounds(50,540,100, 40);
-        resetButton.setBounds(200,540,100, 40);
+        submitButton.setBounds(100,540,100, 40);
+        resetButton.setBounds(230,540,100, 40);
     }
 
     public void addComponentsToContainer() {

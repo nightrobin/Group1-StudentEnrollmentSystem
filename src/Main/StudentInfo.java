@@ -8,6 +8,6 @@ public class StudentInfo {
         frame.setTitle("STUDENT APPLICATION");
         frame.setVisible(true);
         frame.setBounds(10, 10, 430, 650);
-        frame.setResizable(true);
+        frame.setResizable(false);
     }
 }
