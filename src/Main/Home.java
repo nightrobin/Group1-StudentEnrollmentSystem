@@ -2,6 +2,7 @@ package Main;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
+import java.awt.Color;
 
 public class Home extends Login{
     JPanel homepage;
@@ -14,5 +15,7 @@ public class Home extends Login{
         homepage.setBorder(new EmptyBorder(5, 5, 5, 5));
         setContentPane(homepage);
         homepage.setLayout(null);
+        setBackground(Color.PINK);
+        //ayaw gumana ng bg color sa'kin, try mo ikaw mag palit kenyon.
     }
 }
