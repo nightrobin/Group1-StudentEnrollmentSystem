@@ -110,9 +110,9 @@ public class Login extends JFrame {
                         Statement statement = Connect.createStatement();
                         ResultSet resultSet = statement.executeQuery(SelectQ);
                         if (resultSet.next()) {
-                            dispose();
-                            Home home = new Home();
-                            home.setVisible(true);
+                            Main.FeeFrame obj = new Main.FeeFrame();
+                            obj.fee();
+                            setVisible(true);
                         } else {
                             JOptionPane.showMessageDialog(null, "No Account is registered with these credentials");
                         }
@@ -132,7 +132,7 @@ public class Login extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (e.getSource() == btn_gotoEnroll) {
-                    Main.StudentInfo obj = new Main.StudentInfo();
+                    Main.StudentInfoFrame obj = new Main.StudentInfoFrame();
                     obj.enroll();
                     setVisible(true);
                 }
