@@ -135,6 +135,7 @@ public class Login extends JFrame {
                     Main.StudentInfoFrame obj = new Main.StudentInfoFrame();
                     obj.enroll();
                     setVisible(true);
+                    setBackground(Color.PINK);
                 }
             }
         });
