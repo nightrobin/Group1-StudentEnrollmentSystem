@@ -14,6 +14,7 @@ import java.awt.print.*;
 import javafx.print.Printer;
 import java.io.*;
 import java.io.IOException;
+import java.awt.Color;
 
 // Creating the fee class
 public class Fee extends JFrame {
