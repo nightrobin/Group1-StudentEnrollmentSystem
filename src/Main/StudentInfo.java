@@ -128,6 +128,7 @@ public class StudentInfo extends JFrame implements ActionListener {
         if (e.getSource() == submitButton) {
             String email = studentEMTextField.getText();
             String password = studentPWTextField.getText();
+            setBackground(Color.PINK);
 
             if (studentNumTextField.getText().trim().isEmpty() || studentFNTextField.getText().trim().isEmpty() ||
                     studentMNTextField.getText().trim().isEmpty() || studentLNTextField.getText().trim().isEmpty() ||
